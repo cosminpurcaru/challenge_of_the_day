@@ -12,7 +12,7 @@ But since 5×2 = 10, I need to account for all the products of 5 and 2. Looking 
 
 But wait: 25 is 5×5, so each multiple of 25 has an extra factor of 5 that I need to account for. How many multiples of 25 are between 1 and 101? Since 100 ÷ 25 = 4, there are four multiples of 25 between 1 and 101.
 
-    Adding these, I get 20 + 4 = 24 trailing zeroes in 101! *
+    Adding these, I get 20 + 4 = 24 trailing zeroes in 101!
    
 ### 2) Find the number of trailing zeroes in the expansion of 1000!
 
