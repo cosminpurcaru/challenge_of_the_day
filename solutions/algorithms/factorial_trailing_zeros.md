@@ -27,7 +27,7 @@ The previous examples highlights the general method for answering this question,
 
     * Take the number that you've been given the factorial of.
     * Divide by 5; if you get a decimal, truncate to a whole number.
-    * Divide by 52 = 25; if you get a decimal, truncate to a whole number.
-    * Divide by 53 = 125; if you get a decimal, truncate to a whole number.
+    * Divide by 5^2 = 25; if you get a decimal, truncate to a whole number.
+    * Divide by 5^3 = 125; if you get a decimal, truncate to a whole number.
     * Continue with ever-higher powers of 5, until your division results in a number less than 1. Once the division is less than 1, stop.
     * Sum all the whole numbers you got in your divisions. This is the number of trailing zeroes.
