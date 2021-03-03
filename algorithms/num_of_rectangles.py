@@ -10,21 +10,22 @@ Example:
     Input:
 
   y ^
-    |            *
-    |    *   *          *
-    |    *   *   *      *
-----|-------------------------> x
-   O|
+    |
+   3+            *
+   2+    *   *          *
+   1+    *   *   *      *
+----|----+---+---+------+-----> x
+   O|    1   2   3      5
 
-    Output:
-    3
+    Output: 3
+    
+    Rectangle #1: Point(x=1,y=1), Point(x=1,y=2), Point(x=2,y=1), Point(x=2,y=2)
+    Rectangle #2: Point(x=2,y=1), Point(x=2,y=2), Point(x=5,y=1), Point(x=5,y=2)
+    Rectangle #3: Point(x=1,y=1), Point(x=1,y=2), Point(x=5,y=1), Point(x=5,y=2)
+    
 """
 
-class Point:
-
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+from challenge_of_the_day.lib.point import Point
 
 
 def get_num_of_rectangles(points: list):
